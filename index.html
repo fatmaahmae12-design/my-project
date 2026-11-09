@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ديوان الشعراء</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">ديوان الشعراء</a>
+      <a href="index.html">الرئيسية</a>
+      <a href="#poets">الشعراء</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">من روائع الشعر النبطي</p>
+        <h1>حكاية قصيدة<br><span>وأثر شاعر</span></h1>
+        <p>تعرّف على الشعراء واقرأ مختارات من القصائد.</p>
+        <a class="button" href="#poets">اكتشف الشعراء</a>
+      </div>
+    </section>
+
+    <section id="poets" class="container section">
+      <p class="eyebrow">اختر شاعرًا</p>
+      <h2>الشعراء</h2>
+
+      <!-- بطاقات الشعراء وصورهم تظهر هنا من ملف script.js -->
+      <div id="poetCards" class="poet-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span class="year"></span> ديوان الشعراء — مشروع تعليمي</p>
+  </footer>
+</body>
+</html>
